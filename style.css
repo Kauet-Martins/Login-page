@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%; /* Mudança para responsividade */
+}
+
+.formu > h1{
+    font-family: 'Smooch Sans', 'sans-serif';
+    font-size: 4rem; /* Tamanho relativo para responsividade */
+    text-align: center;
+    text-shadow: #000 1px 0 3px;
+}
+
+.formu > p{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem; /* Tamanho relativo */
+}
+
+.formu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center; /* Centralizar texto */
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Responsivo */
+}
+
+input{
+    margin: 0.3rem;
+    width: 90%; /* Responsivo */
+}
+
+.texto{
+    padding: 0.5rem;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    border: 2px transparent;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem;
+}
+
+.texto::placeholder{
+    color: #999; /* Estiliza o placeholder */
+}
+
+.btn{
+    padding: 1rem;
+    background-color: #1C1C1C;
+    border-radius: 15px;
+    border: 2px transparent;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #333; /* Efeito hover */
+}
+
+section > p{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+a{
+    margin: 0.6rem 0;
+    padding: 0.5rem;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: 2px solid #1C1C1C;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1C1C1C;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #f2f2f2; /* Efeito hover */
+}
+
+.Imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.__Imagem{
+    width: 100%; /* Responsivo */
+    height: auto;
+    max-width: 683px; /* Limite máximo para largura */
+    margin: 2rem; /* Margem relativa */
+}
+
+label{
+    visibility: hidden;
+}
+
+.left_img{
+
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
